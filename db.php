@@ -3,9 +3,9 @@ session_start();
 
 $conn = mysqli_connect(
   'localhost',
-  'root',
-  'password123',
-  'php_mysql_crud'
+  'user',
+  'Mysql!123456789',
+  'dbs'
 ) or die(mysqli_erro($mysqli));
 
 ?>
